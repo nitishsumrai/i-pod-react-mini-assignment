@@ -1,0 +1,56 @@
+.outer {
+    background-color: #d6d6d4;
+    width: 16em;
+    margin-top: 1em;
+    height: 12em;
+}
+
+.middle {
+    height: 12em;
+    width: 12em;
+    margin: auto;
+    background: aliceblue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner {
+    height: 4em;
+    width: 4em;
+    margin: auto;
+    background-color: #d6d6d4;
+    border-radius: 50%;
+    position: relative;
+    box-sizing :border-box
+}
+
+.action-button {
+    width: 4em;
+    height: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: d6d6d4;
+}
+
+.menu {
+    position: absolute;
+    top: -4em;
+}
+
+.prv {
+    position: absolute;
+    left: -4em;
+}
+
+.next {
+    position: absolute;
+    right: -4em;
+}
+
+.stop {
+    position: absolute;
+    bottom: -4em;
+}
